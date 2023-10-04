@@ -33,10 +33,10 @@ document.querySelector('.tecla_tic').onclick = tocaSomTic;}
 function tocaSomTom(){
     document.querySelector('#som_tecla_tom').play();
 document.querySelector('.tecla_tom').onclick = tocaSomTom;}
+const listaDeTeclas = document.querySelectorAll('.tecla');
+listaDeTeclas[0].onclick = tocaSomPom;
+let contador = 0; 
+//Estrutura de repetição - Enquanto 
+while(contador <9) {
 
-
-
-
-
-
-
+}
